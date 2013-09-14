@@ -1,0 +1,28 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: myapp_development
+  pool: 5
+  host: localhost
+  #username: myapp
+  #password:
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: myapp_test
+  pool: 5
+  host: localhost
+  #username: myapp
+  #password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: myapp_production
+  pool: 5
+  host: localhost
+  #username: myapp
+  #password:
